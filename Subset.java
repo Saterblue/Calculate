@@ -19,7 +19,7 @@ class SetAndSubset {
   }
 
 	static void printSub(int[] arr){
-	  //Subse's numbers
+	  //Subset's numbers
 		int subNumbers=(1<<arr.length)-1;
 		for(int i=1;i<=subNumbers;i++){
 			int temp=i;
