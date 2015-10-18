@@ -7,7 +7,7 @@
 		sign=i;
 		//if temp is less than the prevois elements,temp's sit give the elements,until temp find the sit 
 		while(sign>0&&arr[sign-1]>temp) {
-		arr[sign]=arr[sign-1];
+			arr[sign]=arr[sign-1];
 			sign--;
 		}
 		//temp find the sit,and sitdown
